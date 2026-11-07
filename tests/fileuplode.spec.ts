@@ -8,5 +8,6 @@ test('file uplone', async({page})=>{
     //this file uplode calss code 
     await page.locator('#file-upload').setInputFiles(filepah);
     await page.locator('#file-submit').click();
+    await page.locator('#file-upload').setInputFiles(filepah);
 
 });
