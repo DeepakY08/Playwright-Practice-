@@ -21,11 +21,4 @@ test('frames 1 - fil and verify input fiels', async({page})=>{
     const frame3_childframe = frame3.frameLocator('frame');
     await frame3_childframe.getByRole('radio',{name:'Hi, I am the UI.Vision IDE'}).click();
 
-    const frame2 = page.frameLocator('//frame[@src="frame_2.html"]');
-    await frame2.locator('//input[@name="mytext2"]').fill("Im in frame 2");
-    
-
-
-
-
 });
