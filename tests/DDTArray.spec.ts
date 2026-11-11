@@ -21,6 +21,8 @@ const logindata:LoginData[]=[
 ];
 
 //write a for loop for data search 
+
+//That line creates one test for each row of your data, and ${data.username} gives each test its own name. Without it, you’d have two tests with the same title, and Playwright would refuse to run them.
 for(const data of logindata){
     test(`login test for ${data.username}`, async({page})=>{
         await page.goto('https://www.saucedemo.com/');

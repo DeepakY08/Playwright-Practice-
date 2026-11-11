@@ -1,0 +1,26 @@
+[
+    {
+        "firstname":"ram",
+        "lastname":"abhi",
+        "email":"ram.abhi@gmail.com",
+        "telephone":"123456789",
+        "password":"password123",
+        "scricbeNewsLetter":"yes"
+    },
+        {
+        "firstname":"Deepak",
+        "lastname":"Reddy",
+        "email":"Deepak.Reddy@gmail.com",
+        "telephone":"123456789",
+        "password":"password123",
+        "scricbeNewsLetter":"No"
+    },
+        {
+        "firstname":"Abhi",
+        "lastname":"abhi",
+        "email":"ram.abhi@gmail.com",
+        "telephone":"22222222",
+        "password":"password123",
+        "scricbeNewsLetter":"yes"
+    }
+]
