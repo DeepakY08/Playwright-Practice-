@@ -32,6 +32,9 @@ type RegData={
                                 await page.getByLabel('No').check();
                         }
 
+
+                        /// updated 
+
          });
    };
 
